@@ -26,6 +26,10 @@ header #top-nav {
   color: white;
 }
 
+h1, h2 {
+  font-style: "Inter:wght@700", sans-serif;
+}
+
 .default-text {
   font-style: "Inter", sans-serif;
   color: #333;

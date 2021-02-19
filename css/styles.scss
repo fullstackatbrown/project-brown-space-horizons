@@ -1,9 +1,8 @@
 // sass css/styles.scss css/styles.css
 
-$font-stack:    'Inter', sans-serif;
+$font-stack: 'Inter', sans-serif;
+$header-font: 'Inter:wght@700', sans-serif;
 $primary-color: #333;
-
-
 
 header {
     height: 60px;
@@ -34,6 +33,10 @@ header {
   .h-links:hover {
     color: white;
   }
+
+h1, h2 {
+    font-style: $header-font;
+}
 
 .default-text {
     font-style: $font-stack;
