@@ -1,9 +1,17 @@
 header {
   height: 60px;
+<<<<<<< HEAD
   background-color: #211f20;
+=======
+  width: 100%;
+  background-color: #211F20;
+  position: fixed;
+>>>>>>> 6a4ae9ca92b10828b892240fc6e68dc48ca67368
 }
-header #logo {
+
+#logo {
   width: 50px;
+<<<<<<< HEAD
   left: 15px;
   top: 15px;
   position: fixed;
@@ -30,6 +38,21 @@ header #top-nav {
   width: 100px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+=======
+  left: 17.5px;
+  top: 7px;
+  position: fixed;
+}
+
+#top-nav {
+  right: 30px;
+  top: 17px;
+  width: auto;
+  grid-column-gap: 27px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  position: fixed;
+>>>>>>> 6a4ae9ca92b10828b892240fc6e68dc48ca67368
 }
 
 .h-links {
@@ -46,11 +69,13 @@ h2 {
 
 .default-text {
   font-style: "Inter", sans-serif;
-  color: #333;
 }
+<<<<<<< HEAD
 .default-text .default-text {
   font-style: "Inter", sans-serif;
   color: #333;
 }
+=======
+>>>>>>> 6a4ae9ca92b10828b892240fc6e68dc48ca67368
 
 /*# sourceMappingURL=styles.css.map */
