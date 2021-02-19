@@ -1,6 +1,11 @@
 // sass css/styles.scss css/styles.css
 
+<<<<<<< HEAD
 $font-stack: "Inter", sans-serif;
+=======
+$font-stack: 'Inter', sans-serif;
+$header-font: 'Inter:wght@700', sans-serif;
+>>>>>>> 70b7d0490a78492390eb0ce4a7f5c585cc2693c0
 $primary-color: #333;
 
 header {
@@ -29,9 +34,19 @@ header {
   transition-duration: 0.5s;
 }
 
+<<<<<<< HEAD
 .h-links:hover {
   color: rgb(226, 226, 226);
 }
+=======
+h1, h2 {
+    font-style: $header-font;
+}
+
+.default-text {
+    font-style: $font-stack;
+    color: $primary-color;
+>>>>>>> 70b7d0490a78492390eb0ce4a7f5c585cc2693c0
 
 .default-text {
   font-style: $font-stack;
