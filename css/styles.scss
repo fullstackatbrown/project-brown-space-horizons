@@ -3,6 +3,8 @@
 $font-stack:    'Inter', sans-serif;
 $primary-color: #333;
 
+
+
 header {
     height: 60px;
     background-color: #211F20;
@@ -36,4 +38,5 @@ header {
 .default-text {
     font-style: $font-stack;
     color: $primary-color;
+
 }
