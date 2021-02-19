@@ -8,9 +8,11 @@ header #logo {
   top: 15px;
 }
 header #top-nav {
-  right: 20px;
-  top: 15px;
+  right: 150px;
+  top: 20px;
   width: 100px;
+  position: fixed;
+  grid-column-gap: 20px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
