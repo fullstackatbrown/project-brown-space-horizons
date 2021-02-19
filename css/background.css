@@ -61,7 +61,7 @@ html {
 }
 
 body {
-    background-color: rgb(223, 231, 238);
+    background-color: $E5E5E5;
     line-height: 1.5;
     font-size: 125%;
     display: flex;
@@ -70,7 +70,7 @@ body {
 }
 
 .container {
-    @include tilted(3deg, rgb(255, 255, 255));
+    @include tilted(45deg, rgb(255, 255, 255));
     padding: 0 1em;
     max-width: 80%;
     margin: 0 auto;
