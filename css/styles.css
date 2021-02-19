@@ -1,38 +1,22 @@
 header {
   height: 60px;
-<<<<<<< HEAD
-  background-color: #211f20;
-=======
   width: 100%;
-  background-color: #211F20;
+  background-color: #211f20;
   position: fixed;
->>>>>>> 6a4ae9ca92b10828b892240fc6e68dc48ca67368
 }
 
-<<<<<<< HEAD
-header #logo {
-  width: 50px;
-  left: 15px;
-  top: 15px;
-}
-
-header #top-nav {
-  right: 150px;
-  top: 20px;
-  width: 100px;
-=======
 #logo {
   width: 50px;
-<<<<<<< HEAD
-  left: 15px;
-  top: 15px;
+  left: 17.5px;
+  top: 7px;
   position: fixed;
 }
-header #top-nav {
-  right: 200px;
-  top: 17.5px;
-  width: 100px;
-  grid-column-gap: 20px;
+
+#top-nav {
+  right: 30px;
+  top: 17px;
+  width: auto;
+  grid-column-gap: 27px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   position: fixed;
@@ -50,22 +34,6 @@ header #top-nav {
   width: 100px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-=======
-  left: 17.5px;
-  top: 7px;
->>>>>>> 6a4ae9ca92b10828b892240fc6e68dc48ca67368
-  position: fixed;
-}
-
-#top-nav {
-  right: 30px;
-  top: 17px;
-  width: auto;
-  grid-column-gap: 27px;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  position: fixed;
->>>>>>> 6a4ae9ca92b10828b892240fc6e68dc48ca67368
 }
 
 .h-links {
@@ -73,6 +41,10 @@ header #top-nav {
   text-decoration: none;
   text-align: center;
   transition-duration: 0.5s;
+}
+
+.h-links:hover {
+  color: white;
 }
 
 h1,
@@ -83,28 +55,16 @@ h2 {
 .default-text {
   font-style: "Inter", sans-serif;
 }
-<<<<<<< HEAD
-.default-text .default-text {
-  font-style: "Inter", sans-serif;
-  color: #333;
-}
-=======
->>>>>>> 6a4ae9ca92b10828b892240fc6e68dc48ca67368
 
-<<<<<<< HEAD
-body {
-
-}
-
-.first {
-  background-color: #000000;
-  background-image: linear-gradient(30deg, #000000, #FFFFFF);
-  min-height: 500px;
+.section1-header {
+  margin-left: 5%;
+  width: 32%;
+  padding-top: 5%;
 }
 
 .second {
   background-color: #ffffff;
-  background-image: linear-gradient(30deg, #FFFFFF, #0047FF);
+  background-image: linear-gradient(30deg, #ffffff, #0047ff);
   min-height: 500px;
 }
 
@@ -113,17 +73,53 @@ body {
   transform: skewY(-11deg);
 }
 
-.line {
+.container {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  background-color: linear-gradiant(to bottom, #333333);
+}
 
+.second {
+  background-color: #ffffff;
+  background-image: linear-gradient(30deg, #ffffff, #0047ff);
+  min-height: 500px;
+}
+
+.diagonal-box {
+  background-image: linear-gradient(45deg, #e4e4e4 70%, #000000);
+  transform: skewY(-11deg);
 }
 
 .container {
   width: 100px;
   height: 100px;
   overflow: hidden;
-  background-color: linear-gradiant(to bottom, #333333, )
+  background-color: linear-gradiant(to bottom, #333333);
 }
-=======
->>>>>>> 6a4ae9ca92b10828b892240fc6e68dc48ca67368
+
+.first {
+  background-color: #000000;
+  background-image: linear-gradient(30deg, #000000, #ffffff);
+  min-height: 500px;
+}
+
+.second {
+  background-color: #ffffff;
+  background-image: linear-gradient(30deg, #ffffff, #0047ff);
+  min-height: 500px;
+}
+
+.diagonal-box {
+  background-image: linear-gradient(45deg, #e4e4e4 70%, #000000);
+  transform: skewY(-11deg);
+}
+
+.container {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  background-color: linear-gradiant(to bottom, #333333);
+}
+
 /*# sourceMappingURL=styles.css.map */
-32222wws12
