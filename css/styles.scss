@@ -5,40 +5,39 @@ $header-font: "Inter:wght@700", sans-serif;
 $primary-color: #333;
 
 header {
-    height: 60px;
-    background-color: #211F20;
-
-    #logo {
-        width: 50px;
-        left: 15px;
-        top: 15px;
-        position: fixed;
-    }
-
-    #top-nav {
-        right: 200px;
-        top: 17.5px;
-        width: 100px;
-        grid-column-gap: 20px;
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        position: fixed;
-    }
-}
+  height: 60px;
+  background-color: #211f20;
 
   #logo {
     width: 50px;
     left: 15px;
     top: 15px;
+    position: fixed;
   }
 
   #top-nav {
-    right: 20px;
-    top: 15px;
+    right: 200px;
+    top: 17.5px;
     width: 100px;
+    grid-column-gap: 20px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    position: fixed;
   }
+}
+
+#logo {
+  width: 50px;
+  left: 15px;
+  top: 15px;
+}
+
+#top-nav {
+  right: 20px;
+  top: 15px;
+  width: 100px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .h-links {
