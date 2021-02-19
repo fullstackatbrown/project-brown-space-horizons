@@ -3,6 +3,8 @@
 $font-stack:    'Inter', sans-serif;
 $primary-color: #333;
 
+
+
 header {
     height: 50px;
     background-color: #211F20;
@@ -16,7 +18,12 @@ header {
     }
 }
 
+.container {
+    background-image: linear-gradient(176deg, #FFFFFF 70%, #F4F4F4 calc(70% + 2px));
+}
+
 .default-text {
     font-style: $font-stack;
     color: $primary-color;
+
 }
