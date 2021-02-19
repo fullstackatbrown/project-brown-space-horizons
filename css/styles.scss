@@ -5,40 +5,27 @@ $header-font: "Inter:wght@700", sans-serif;
 $primary-color: #333;
 
 header {
-    height: 60px;
-    background-color: #211F20;
-
-    #logo {
-        width: 50px;
-        left: 15px;
-        top: 15px;
-        position: fixed;
-    }
-
-    #top-nav {
-        right: 200px;
-        top: 17.5px;
-        width: 100px;
-        grid-column-gap: 20px;
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        position: fixed;
-    }
+  height: 60px;
+  width: 100%;
+  background-color: #211F20;
+  position: fixed;
 }
 
-  #logo {
-    width: 50px;
-    left: 15px;
-    top: 15px;
-  }
+#logo {
+  width: 50px;
+  left: 17.5px;
+  top: 7px;
+  position: fixed;
+}
 
-  #top-nav {
-    right: 20px;
-    top: 15px;
-    width: 100px;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-  }
+#top-nav {
+  right: 30px;
+  top: 17px;
+  width: auto;
+  grid-column-gap: 27px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  position: fixed;
 }
 
 .h-links {
@@ -48,17 +35,14 @@ header {
   transition-duration: 0.5s;
 }
 
-h1,
-h2 {
+.h-links:hover {
+  color: white;
+}
+
+h1, h2 {
   font-style: $header-font;
 }
 
 .default-text {
   font-style: $font-stack;
-  color: $primary-color;
-
-  .default-text {
-    font-style: $font-stack;
-    color: $primary-color;
-  }
 }
