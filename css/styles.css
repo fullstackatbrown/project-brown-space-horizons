@@ -1,11 +1,12 @@
-html, body {
+html,
+body {
   margin: 0;
 }
 
 header {
   height: 60px;
   width: 100%;
-  background-color: #211F20;
+  background-color: #211f20;
   position: fixed;
   top: 0px;
 }
@@ -38,7 +39,8 @@ header {
   color: white;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-family: "Inter:wght@700", sans-serif;
 }
 
@@ -76,6 +78,35 @@ h1, h2 {
 .diagonal-box {
   background-image: linear-gradient(45deg, #e4e4e4 70%, #000000);
   transform: skewY(-11deg);
+}
+
+.section1-header {
+  margin-left: 5%;
+  width: 21%;
+  padding-top: 5%;
+  font-family: "Inter", sans-serif;
+}
+
+.section1-desc {
+  width: 16%;
+  margin-left: 10%;
+}
+
+.section1-date {
+  margin-left: 6%;
+  margin-top: -7%;
+}
+
+.section1-date2 {
+  margin-left: 6%;
+}
+
+.slides {
+  display: block;
+  margin-left: auto;
+  margin-right: 10%;
+  margin-top: -9%;
+  width: 40%;
 }
 
 /*# sourceMappingURL=styles.css.map */
