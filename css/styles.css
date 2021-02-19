@@ -1,3 +1,17 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+header {
+  height: 50px;
+  background-color: #211F20;
+}
+header #logo {
+  width: 100px;
+}
+header #top-nav {
+  float: right;
+}
+
+.default-text {
+  font-style: "Inter", sans-serif;
+  color: #333;
+}
+
+/*# sourceMappingURL=styles.css.map */

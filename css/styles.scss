@@ -1,0 +1,22 @@
+// sass css/styles.scss css/styles.css
+
+$font-stack:    'Inter', sans-serif;
+$primary-color: #333;
+
+header {
+    height: 50px;
+    background-color: #211F20;
+
+    #logo {
+        width: 100px;
+    }
+
+    #top-nav {
+        float: right;
+    }
+}
+
+.default-text {
+    font-style: $font-stack;
+    color: $primary-color;
+}
