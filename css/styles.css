@@ -1,8 +1,11 @@
 header {
   height: 60px;
+  width: 100%;
   background-color: #211F20;
+  position: fixed;
 }
 
+<<<<<<< HEAD
 header #logo {
   width: 50px;
   left: 15px;
@@ -13,14 +16,27 @@ header #top-nav {
   right: 150px;
   top: 20px;
   width: 100px;
+=======
+#logo {
+  width: 50px;
+  left: 17.5px;
+  top: 7px;
+>>>>>>> 6a4ae9ca92b10828b892240fc6e68dc48ca67368
   position: fixed;
-  grid-column-gap: 20px;
+}
+
+#top-nav {
+  right: 30px;
+  top: 17px;
+  width: auto;
+  grid-column-gap: 27px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  position: fixed;
 }
 
 .h-links {
-  color: #C0C0C0;
+  color: #c0c0c0;
   text-decoration: none;
   text-align: center;
   transition-duration: 0.5s;
@@ -36,9 +52,9 @@ h1, h2 {
 
 .default-text {
   font-style: "Inter", sans-serif;
-  color: #333;
 }
 
+<<<<<<< HEAD
 body {
 
 }
@@ -70,5 +86,7 @@ body {
   overflow: hidden;
   background-color: linear-gradiant(to bottom, #333333, )
 }
+=======
+>>>>>>> 6a4ae9ca92b10828b892240fc6e68dc48ca67368
 /*# sourceMappingURL=styles.css.map */
 32222wws12
