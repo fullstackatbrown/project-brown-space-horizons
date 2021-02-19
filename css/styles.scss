@@ -6,6 +6,7 @@ $primary-color: #333;
 html,
 body {
   margin: 0;
+  background-color: blue;
 }
 
 header {
@@ -58,6 +59,31 @@ h2 {
   grid-template-columns: repeat(4, 1fr);
   grid-template-columns: repeat(2, 1fr);
 }
+
+#container {
+  position: relative;
+  height: 200px;
+  width: 200px;
+  overflow: hidden;
+  background-color: grey;
+
+}
+
+#container:before {
+  content: '';
+  position: absolute;
+  left: 20%;
+  width: 100%;
+  height: 200%;
+  background-color: rgb(255, 255, 255); /* fallback */
+  background-color: rgba(255, 255, 255, 0.5);
+  top: 0;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+
 .first {
   background-color: #000000;
   background-image: linear-gradient(30deg, #000000, #ffffff);
