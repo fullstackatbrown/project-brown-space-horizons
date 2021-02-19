@@ -9,6 +9,18 @@ header {
 >>>>>>> 6a4ae9ca92b10828b892240fc6e68dc48ca67368
 }
 
+<<<<<<< HEAD
+header #logo {
+  width: 50px;
+  left: 15px;
+  top: 15px;
+}
+
+header #top-nav {
+  right: 150px;
+  top: 20px;
+  width: 100px;
+=======
 #logo {
   width: 50px;
 <<<<<<< HEAD
@@ -41,6 +53,7 @@ header #top-nav {
 =======
   left: 17.5px;
   top: 7px;
+>>>>>>> 6a4ae9ca92b10828b892240fc6e68dc48ca67368
   position: fixed;
 }
 
@@ -78,4 +91,39 @@ h2 {
 =======
 >>>>>>> 6a4ae9ca92b10828b892240fc6e68dc48ca67368
 
+<<<<<<< HEAD
+body {
+
+}
+
+.first {
+  background-color: #000000;
+  background-image: linear-gradient(30deg, #000000, #FFFFFF);
+  min-height: 500px;
+}
+
+.second {
+  background-color: #ffffff;
+  background-image: linear-gradient(30deg, #FFFFFF, #0047FF);
+  min-height: 500px;
+}
+
+.diagonal-box {
+  background-image: linear-gradient(45deg, #e4e4e4 70%, #000000);
+  transform: skewY(-11deg);
+}
+
+.line {
+
+}
+
+.container {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  background-color: linear-gradiant(to bottom, #333333, )
+}
+=======
+>>>>>>> 6a4ae9ca92b10828b892240fc6e68dc48ca67368
 /*# sourceMappingURL=styles.css.map */
+32222wws12
