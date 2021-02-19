@@ -61,6 +61,7 @@ h2 {
   width: 32%;
   padding-top: 5%;
 }
+<<<<<<< HEAD
 
 .second {
   background-color: #ffffff;
@@ -97,6 +98,9 @@ h2 {
   overflow: hidden;
   background-color: linear-gradiant(to bottom, #333333);
 }
+=======
+.line {
+>>>>>>> 9d051f52d051922088520972aa9811408af031ce
 
 .first {
   background-color: #000000;
