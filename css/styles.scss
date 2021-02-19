@@ -1,6 +1,6 @@
 // sass css/styles.scss css/styles.css
 $font-stack: "Inter", sans-serif;
-$header-font: "Inter:wght@700", sans-serif;
+$header-font: "Inter:wght@900", sans-serif;
 $primary-color: #333;
 
 html,
@@ -86,8 +86,9 @@ h2 {
 
 .section1-header {
   margin-left: 5%;
-  width: 21%;
-  padding-top: 5%;
+  width: 28%;
+  margin-top: 8%;
+  font-size: xxx-large;
   font-family: $font-stack;
 }
 
@@ -97,18 +98,49 @@ h2 {
 }
 
 .section1-date {
-  margin-left: 6%;
-  margin-top: -7%;
+  margin-left: 5%;
+  margin-top: -7.75%;
+  font-size: 3em;
 }
 
 .section1-date2 {
-  margin-left: 6%;
+  margin-left: 5%;
+  margin-top: -4%;
+  font-size: 3em;
 }
 
 .slides {
   display: block;
   margin-left: auto;
   margin-right: 10%;
-  margin-top: -9%;
-  width: 40%;
+  margin-top: -19%;
+  width: 35%;
+}
+
+.section2-subheader {
+  margin-top: 7%;
+  margin-left: 5%;
+}
+
+.section2-subheader2 {
+  margin-top: -3.2%;
+  margin-left: 38%;
+}
+
+.section2-countdown {
+  margin-left: 5%;
+}
+
+.section2-header {
+  margin-left: 38%;
+  margin-top: -13%;
+}
+
+.section2-text {
+  width: 39%;
+  margin-left: 38%;
+}
+
+.section3-header {
+  margin-top: 10%;
 }
