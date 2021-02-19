@@ -1,0 +1,97 @@
+//templete from https://codepen.io/hellonico/pen/xEYXmL
+
+/// Computes the height of the tilted pseudo-element based on the given angle
+/// using Pythagoras Theorem.
+// sin(..), pow(..) and sqrt(..)  functions come from this pen:
+// https://codepen.io/HugoGiraudel/pen/rLpPGo
+/// @access public
+/// @author Hugo Giraudel
+/// @param {Angle} $angle - the tilt angle
+@function get-tilted-height($angle) {
+    $a: (100% / 1%);
+    $A: (90deg - $angle);
+    $c: ($a / sin($A));
+    $b: sqrt(pow($c, 2) - pow($a, 2));
+
+    @return (abs($b) * 1%);
+}
+
+/// Apply a tilted effect by generating a pseudo-element with a diagonal
+/// splitted background.
+/// @access public
+/// @author Hugo Giraudel
+/// @param {Angle} $angle - the tilt angle
+/// @param {Color} $color - the color to be used as background + gradient
+/// @param {String} $position ['top'] - either `top` or `bottom`
+/// @param {String} $pseudo ['before'] - either `before` or `after`
+@mixin tilted($angle, $color, $position: 'top', $pseudo: 'before') {
+$height: get-tilted-height($angle);
+
+    position: relative;
+    background-color: $color;
+
+&::#{$pseudo} {
+     content: '';
+     padding-top: $height;
+     position: absolute;
+     left: 0;
+     right: 0;
+
+    @if ($position == 'top') {
+        bottom: 100%;
+        background-image: linear-gradient($angle, $color calc(50% - 1px), transparent 50%);
+    } @else {
+    top: 100%;
+    background-image: linear-gradient($angle, transparent calc(50% - 1px), $color 50%);
+}
+}
+}
+
+/*
+ * Demo styles
+ */
+
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*, ::before, ::after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: rgb(223, 231, 238);
+    line-height: 1.5;
+    font-size: 125%;
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+}
+
+.container {
+    @include tilted(3deg, rgb(255, 255, 255));
+    padding: 0 1em;
+    max-width: 80%;
+    margin: 0 auto;
+    filter: drop-shadow(0 1em 1em rgba(0, 0, 0, 0.1));
+}
+
+.content {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 1em;
+}
+
+h1 {
+    border-bottom: 3px double deepskyblue;
+    padding-bottom: 0.25em;
+    margin-bottom: 0.25em;
+}
+
+pre {
+    background-color: #efefef;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0.5em;
+}
+
