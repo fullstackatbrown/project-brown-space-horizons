@@ -7,7 +7,7 @@ $primary-color: #333;
 header {
   height: 60px;
   width: 100%;
-  background-color: #211F20;
+  background-color: #211f20;
   position: fixed;
 }
 
@@ -39,7 +39,8 @@ header {
   color: white;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-style: $header-font;
 }
 
@@ -47,11 +48,72 @@ h1, h2 {
   font-style: $font-stack;
 }
 
+<<<<<<< HEAD
+.section1-header {
+  margin-left: 5%;
+  width: 32%;
+  padding-top: 5%;
+}
+
+.second {
+  background-color: #ffffff;
+  background-image: linear-gradient(30deg, #ffffff, #0047ff);
+  min-height: 500px;
+}
+
+.diagonal-box {
+  background-image: linear-gradient(45deg, #e4e4e4 70%, #000000);
+  transform: skewY(-11deg);
+}
+
+.line {
+}
+
+.container {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  background-color: linear-gradiant(to bottom, #333333);
+}
+
+.second {
+  background-color: #ffffff;
+  background-image: linear-gradient(30deg, #ffffff, #0047ff);
+  min-height: 500px;
+}
+
+.diagonal-box {
+  background-image: linear-gradient(45deg, #e4e4e4 70%, #000000);
+  transform: skewY(-11deg);
+}
+
+.line {
+}
+
+.container {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  background-color: linear-gradiant(to bottom, #333333);
+}
+
+.first {
+  background-color: #000000;
+  background-image: linear-gradient(30deg, #000000, #ffffff);
+  min-height: 500px;
+}
+
+.second {
+  background-color: #ffffff;
+  background-image: linear-gradient(30deg, #ffffff, #0047ff);
+  min-height: 500px;
+=======
 #speaker-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-columns: repeat(2, 1fr);
 }
+<<<<<<< HEAD
 
 body{
   margin:0;
@@ -68,6 +130,7 @@ header {
   background-color: #211F20;
   min-height: 40px;
 }
+
 
 .first {
   background-color: #000000;
@@ -93,4 +156,14 @@ header {
 .diagonal-box {
   background-image: linear-gradient(45deg, #e4e4e4 70%, #000000);
   transform: skewY(-11deg);
+}
+
+.line {
+}
+
+.container {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  background-color: linear-gradiant(to bottom, #333333);
 }
