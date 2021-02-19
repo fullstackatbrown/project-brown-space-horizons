@@ -2,11 +2,13 @@ header {
   height: 60px;
   background-color: #211F20;
 }
+
 header #logo {
   width: 50px;
   left: 15px;
   top: 15px;
 }
+
 header #top-nav {
   right: 20px;
   top: 15px;
@@ -37,7 +39,7 @@ body {
 
 .diagonal-box {
   background-image: linear-gradient(45deg, #e4e4e4 70%, #000000);
-  tranform: skewY(-11deg);
+  transform: skewY(-11deg);
 }
 
 .container {
@@ -47,3 +49,4 @@ body {
   background-color: linear-gradiant(to bottom, #333333, )
 }
 /*# sourceMappingURL=styles.css.map */
+32222wws12
