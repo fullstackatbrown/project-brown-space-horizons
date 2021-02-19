@@ -1,8 +1,13 @@
+html, body {
+  margin: 0;
+}
+
 header {
   height: 60px;
   width: 100%;
   background-color: #211F20;
   position: fixed;
+  top: 0px;
 }
 
 #logo {
@@ -34,11 +39,11 @@ header {
 }
 
 h1, h2 {
-  font-style: "Inter:wght@700", sans-serif;
+  font-family: "Inter:wght@700", sans-serif;
 }
 
 .default-text {
-  font-style: "Inter", sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 #speaker-grid {
