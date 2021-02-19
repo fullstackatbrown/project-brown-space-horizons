@@ -1,13 +1,29 @@
-<<<<<<< HEAD
 header {
-  height: 50px;
+  height: 60px;
   background-color: #211F20;
 }
 header #logo {
-  width: 100px;
+  width: 50px;
+  left: 15px;
+  top: 15px;
 }
 header #top-nav {
-  float: right;
+  right: 20px;
+  top: 15px;
+  width: 100px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.h-links {
+  color: #C0C0C0;
+  text-decoration: none;
+  text-align: center;
+  transition-duration: 0.5s;
+}
+
+.h-links:hover {
+  color: white;
 }
 
 .default-text {
@@ -16,5 +32,3 @@ header #top-nav {
 }
 
 /*# sourceMappingURL=styles.css.map */
-=======
->>>>>>> b8dd65ac2446f57000aa54a0a35f449d6756bcbf
