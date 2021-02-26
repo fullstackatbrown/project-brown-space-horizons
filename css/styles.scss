@@ -26,7 +26,7 @@ body {
 }
 
 header {
-  height: 60px;
+  height: 50px;
   width: 100%;
   background-color: #211f20;
   position: fixed;
@@ -34,15 +34,15 @@ header {
 }
 
 #logo {
-  width: 70px;
+  width: 71px;
   left: 17.5px;
-  top: 18px;
+  top: 13px;
   position: fixed;
 }
 
 #top-nav {
   right: 30px;
-  top: 20px;
+  top: 16.5px;
   width: auto;
   grid-column-gap: 27px;
   display: grid;
@@ -74,7 +74,7 @@ h2 {
 #speaker-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
 }
 
 #container {
@@ -207,4 +207,27 @@ h2 {
   flex-direction: row;
   text-align: -webkit-auto;
   margin-top: 5%;
+}
+
+.speaker {
+
+}
+
+.speaker-pics {
+  width: 200px;
+  z-index: 1;
+  transition-duration: 0.3s;
+  box-shadow: 1px 1px 3px 1px;
+}
+
+.speaker-pics:hover {  
+  opacity: 0.3;
+  z-index: 10;
+  filter: grayscale(.6) brightness(1.1) blur(1px);
+} //NOTE this breaks the logo
+
+#hidden-speaker-text {
+  z-index: -1;
+  position: absolute;
+  width: 200px;
 }
