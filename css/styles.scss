@@ -9,6 +9,22 @@ body {
   //background-color: blue;
 }
 
+body {
+  background:
+      repeating-linear-gradient(
+          45deg,
+          transparent,
+          transparent 10px,
+          #ffffff 30% 10px,
+          #111111 30% 20px
+      ),
+      linear-gradient(
+          to bottom,
+          #eee,
+          #999
+      );
+}
+
 header {
   height: 60px;
   width: 100%;
@@ -18,15 +34,15 @@ header {
 }
 
 #logo {
-  width: 50px;
+  width: 70px;
   left: 17.5px;
-  top: 7px;
+  top: 18px;
   position: fixed;
 }
 
 #top-nav {
   right: 30px;
-  top: 17px;
+  top: 20px;
   width: auto;
   grid-column-gap: 27px;
   display: grid;
@@ -43,6 +59,7 @@ header {
 
 .h-links:hover {
   color: white;
+  cursor: pointer;
 }
 
 h1,
