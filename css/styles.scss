@@ -99,6 +99,11 @@ h2 {
   transform: rotate(45deg);
 }
 
+#wrapper {
+  width: 500px;
+  margin: 0 auto;
+}
+
 .first {
   background-color: #000000;
   background-image: linear-gradient(30deg, #000000, #ffffff);
@@ -230,4 +235,8 @@ h2 {
   z-index: -1;
   position: absolute;
   width: 200px;
+}
+
+.dotted {
+  border-style: dotted;
 }
