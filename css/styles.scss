@@ -11,19 +11,14 @@ body {
 }
 
 body {
-  background:
-      repeating-linear-gradient(
-          45deg,
-          transparent,
-          transparent 10px,
-          #ffffff 30% 10px,
-          #111111 30% 20px
-      ),
-      linear-gradient(
-          to bottom,
-          #eee,
-          #999
-      );
+  background: repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 10px,
+      #ffffff 30% 10px,
+      #111111 30% 20px
+    ),
+    linear-gradient(to bottom, #eee, #999);
 }
 
 header {
@@ -97,6 +92,11 @@ p {
   transform: rotate(45deg);
 }
 
+#wrapper {
+  width: 500px;
+  margin: 0 auto;
+}
+
 .first {
   background-color: #000000;
   background-image: linear-gradient(30deg, #000000, #ffffff);
@@ -126,35 +126,72 @@ p {
 // Section 1
 .section1-header {
   margin-left: 10%;
+  margin-bottom: 0%;
   width: 85%;
   margin-top: 16%;
-  font-size: xxx-large;
+  font-size: 4.5em;
   font-family: $font-stack;
 }
 
 .section1-desc {
-  width: 34%;
-  margin-top: 8%;
-  margin-left: 19%;
+  width: 35%;
+  margin-left: 6%;
+  margin-top: -1.75%;
+  font-size: 2em;
 }
 
 .section1-date {
-  margin-left: 125%;
-  font-size: 3em;
+  margin-top: 2%;
+  font-size: 4em;
+  background: -webkit-linear-gradient(#f733ff, #6d33ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .section2-date {
-  margin-left: 125%;
-  font-size: 3em;
+  font-size: 4em;
   margin-top: -85%;
+  background: -webkit-linear-gradient(#f733ff, #6d33ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@media (max-width: 1981px) {
+  .section1-date {
+    margin-left: 200%;
+    margin-top: 2%;
+    font-size: 4em;
+    background: -webkit-linear-gradient(#f733ff, #6d33ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .section2-date {
+    margin-left: 200%;
+    font-size: 4em;
+    margin-top: -85%;
+    background: -webkit-linear-gradient(#f733ff, #6d33ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .section1-desc {
+    width: 40%;
+    margin-left: 14%;
+    margin-top: -2.25%;
+    font-size: 2em;
+  }
 }
 
 .slides {
   display: flex;
   margin: auto;
-  margin-right: 10%;
-  margin-top: 9%;
-  width: 45%;
+  margin-right: 25%;
+  margin-top: 15%;
+  width: 70%;
 }
 
 // Section 2
@@ -169,6 +206,11 @@ p {
 .section2-countdown {
   margin-left: 37%;
   width: 100%;
+  box-sizing: border-box;
+  background-color: grey;
+  border: #DDD8D4 solid 3px;
+  padding: 3px 5px 5px 5px;
+  transition: all 0.3s ease-in-out;
 }
 
 .section2-header {
@@ -186,11 +228,14 @@ p {
   display: flex;
   flex-direction: row;
   text-align: -webkit-auto;
+  align-items: center;
 }
 
 .container2 {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  margin-left: 4%;
 }
 
 .slidesContainer {

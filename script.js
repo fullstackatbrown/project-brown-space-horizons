@@ -10,11 +10,11 @@ function carousel() {
     slideIndex++;
     if (slideIndex > x.length) { slideIndex = 1 }
     x[slideIndex - 1].style.display = "block";
-    setTimeout(carousel, 2000); // Change image every 2 seconds
+    setTimeout(carousel, 4000); // Change image every 2 seconds
 }
 
 // Set the date we're counting down to
-var countDownDate = new Date("Jan 5, 2022 15:37:25").getTime();
+var countDownDate = new Date("February 20, 2022 15:37:25").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function () {
