@@ -117,6 +117,7 @@ p {
   margin-top: 16%;
   font-size: 4.5em;
   font-family: "Inter", sans-serif;
+  color: white;
 }
 
 .section1-desc {
@@ -124,6 +125,7 @@ p {
   margin-left: 6%;
   margin-top: -1.75%;
   font-size: 2em;
+  color: white;
 }
 
 .section1-date {
@@ -170,6 +172,7 @@ p {
     margin-left: 14%;
     margin-top: -2.25%;
     font-size: 2em;
+    color: white;
   }
 }
 .slides {
@@ -193,7 +196,7 @@ p {
   width: 100%;
   box-sizing: border-box;
   background-color: grey;
-  border: #DDD8D4 solid 3px;
+  border: #ddd8d4 solid 3px;
   padding: 3px 5px 5px 5px;
   transition: all 0.3s ease-in-out;
 }
@@ -228,37 +231,4 @@ p {
   margin-inline-start: auto;
 }
 
-<<<<<<< HEAD
-=======
-.containerSect2 {
-  display: flex;
-  flex-direction: row;
-  text-align: -webkit-auto;
-  margin-top: 5%;
-}
-
-.speaker-pics {
-  width: 200px;
-  z-index: 1;
-  transition-duration: 0.3s;
-  box-shadow: 1px 1px 3px 1px;
-}
-
-.speaker-pics:hover {
-  opacity: 0.3;
-  z-index: 10;
-  filter: grayscale(0.6) brightness(1.1) blur(1px);
-}
-
-#hidden-speaker-text {
-  z-index: -1;
-  position: absolute;
-  width: 200px;
-}
-
-.dotted {
-  border-style: dotted;
-}
-
->>>>>>> 249e3d2fa568e09521dfa2dd83fc885ab4a6f36c
 /*# sourceMappingURL=styles.css.map */

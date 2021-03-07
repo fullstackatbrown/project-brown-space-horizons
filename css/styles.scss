@@ -131,6 +131,7 @@ p {
   margin-top: 16%;
   font-size: 4.5em;
   font-family: $font-stack;
+  color: white;
 }
 
 .section1-desc {
@@ -138,6 +139,7 @@ p {
   margin-left: 6%;
   margin-top: -1.75%;
   font-size: 2em;
+  color: white;
 }
 
 .section1-date {
@@ -183,6 +185,7 @@ p {
     margin-left: 14%;
     margin-top: -2.25%;
     font-size: 2em;
+    color: white;
   }
 }
 
@@ -208,7 +211,7 @@ p {
   width: 100%;
   box-sizing: border-box;
   background-color: grey;
-  border: #DDD8D4 solid 3px;
+  border: #ddd8d4 solid 3px;
   padding: 3px 5px 5px 5px;
   transition: all 0.3s ease-in-out;
 }
