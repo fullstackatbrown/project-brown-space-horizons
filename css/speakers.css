@@ -1,8 +1,11 @@
 #speaker-grid {
+  display: -ms-grid;
   display: grid;
   position: relative;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  -ms-grid-rows: (1fr)[2];
+      grid-template-rows: repeat(2, 1fr);
 }
 
 .section3-header {
@@ -10,28 +13,37 @@
 }
 
 .containerSect2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   text-align: -webkit-auto;
   margin-top: 5%;
 }
 
 .speaker {
-  justify-self: center;
+  -ms-grid-column-align: center;
+      justify-self: center;
   position: relative;
 }
 
 .speaker-pics {
   width: 200px;
-  transition-duration: 0.3s;
-  box-shadow: 1px 1px 3px 1px;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  -webkit-box-shadow: 1px 1px 3px 1px;
+          box-shadow: 1px 1px 3px 1px;
   z-index: 2;
   position: relative;
 }
 
 .speaker-pics:hover {
   opacity: 0.3;
-  filter: grayscale(0.6) brightness(1.1) blur(1px);
+  -webkit-filter: grayscale(0.6) brightness(1.1) blur(1px);
+          filter: grayscale(0.6) brightness(1.1) blur(1px);
 }
 
 #visible-speaker-text {
@@ -46,5 +58,4 @@
   z-index: 1;
   width: 200px;
 }
-
 /*# sourceMappingURL=speakers.css.map */
