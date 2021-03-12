@@ -3,11 +3,6 @@ body {
   margin: 0;
 }
 
-body {
-  background: repeating-linear-gradient(45deg, transparent, transparent 10px, #ffffff 30% 10px, #111111 30% 20px), -webkit-gradient(linear, left top, left bottom, from(#eee), to(#999));
-  background: repeating-linear-gradient(45deg, transparent, transparent 10px, #ffffff 30% 10px, #111111 30% 20px), linear-gradient(to bottom, #eee, #999);
-}
-
 header {
   z-index: 100;
   height: 50px;
@@ -15,6 +10,28 @@ header {
   background-color: #211f20;
   position: fixed;
   top: 0px;
+}
+
+#top-background {
+  background-image: linear-gradient(45deg, #000000, #000000);
+  -webkit-transform: skewY(0deg);
+  transform: skewY(-4deg);
+  position: absolute;
+  top: -100px;
+  left: 0;
+  width: 100%;
+  height: 400px;
+}
+
+#speaker-background {
+  background-image: linear-gradient(45deg, #FF09E6, #0047FF);
+  -webkit-transform: skewY(0deg);
+  transform: skewY(4deg);
+  position: absolute;
+  top: 500px;
+  left: 0;
+  width: 100%;
+  height: 400px;
 }
 
 #logo {
@@ -82,7 +99,7 @@ p {
   transform: rotate(45deg);
 }
 
-#wrapper {
+section {
   width: 1300px;
   margin: 0 auto;
 }
@@ -135,7 +152,7 @@ p {
 #section1-date {
   margin-top: 2%;
   font-size: 4em;
-  background: -webkit-linear-gradient(#f733ff, #6d33ff);
+  background: -webkit-linear-gradient(45deg, #FF09E6, #0047FF);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -146,7 +163,7 @@ p {
     margin-left: 200%;
     margin-top: 2%;
     font-size: 4em;
-    background: -webkit-linear-gradient(#f733ff, #6d33ff);
+    background: -webkit-linear-gradient(45deg, #FF09E6, #0047FF);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
