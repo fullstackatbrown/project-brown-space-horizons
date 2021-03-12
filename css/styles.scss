@@ -151,15 +151,6 @@ p {
   -webkit-text-fill-color: transparent;
 }
 
-.section2-date {
-  font-size: 4em;
-  margin-top: -85%;
-  background: -webkit-linear-gradient(#f733ff, #6d33ff);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
 @media (max-width: 1981px) {
   .section1-date {
     margin-left: 200%;
@@ -170,16 +161,7 @@ p {
     background-clip: text;
     -webkit-text-fill-color: transparent;
   }
-
-  .section2-date {
-    margin-left: 200%;
-    font-size: 4em;
-    margin-top: -85%;
-    background: -webkit-linear-gradient(#f733ff, #6d33ff);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
+  
   .section1-desc {
     width: 40%;
     margin-left: 14%;
