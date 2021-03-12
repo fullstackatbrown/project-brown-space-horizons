@@ -132,19 +132,15 @@ p {
 }
 
 #section1-header {
-  margin-left: 10%;
-  margin-bottom: 0%;
-  width: 85%;
-  margin-top: 16%;
   font-size: 4.5em;
   font-family: $font-stack;
+  margin-bottom: 0;
   color: white;
 }
 
 #section1-desc {
   width: 35%;
   margin-left: 6%;
-  margin-top: -1.75%;
   font-size: 2em;
   color: white;
 }
@@ -159,11 +155,8 @@ p {
 }
 
 .slides {
-  display: flex;
   margin: auto;
-  margin-right: 25%;
-  margin-top: 15%;
-  width: 70%;
+  width: 100%;
 }
 
 // Section 2
@@ -215,9 +208,16 @@ p {
   margin-inline-start: auto;
 }
 
+#section1-left {
+  display: grid;
+  grid-row-gap: 50px;
+  grid-template-rows: auto auto;
+}
+
 #section1 {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-column-gap: 50px;
+  grid-template-columns: auto auto;
 }
 
 #front-page-desc {
