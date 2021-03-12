@@ -148,6 +148,7 @@ p {
 #section1-date {
   margin-top: 2%;
   font-size: 4em;
+  line-height: 0.8;
   background: -webkit-linear-gradient(#f733ff, #6d33ff);
   -webkit-background-clip: text;
   background-clip: text;
@@ -156,6 +157,7 @@ p {
 
 .slides {
   margin: auto;
+  margin-top: 20%;
   width: 100%;
 }
 
@@ -210,7 +212,6 @@ p {
 
 #section1-left {
   display: grid;
-  grid-row-gap: 50px;
   grid-template-rows: auto auto;
 }
 
