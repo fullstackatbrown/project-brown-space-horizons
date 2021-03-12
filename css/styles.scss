@@ -95,6 +95,7 @@ p {
 #wrapper {
   width: 1300px;
   margin: 0 auto;
+  align-self: center;
 }
 
 .first {
@@ -126,7 +127,8 @@ p {
 // Section 1
 
 #front-page-intro {
-
+  display: flex;
+  flex-direction: column;
 }
 
 #section1-header {
@@ -154,26 +156,6 @@ p {
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-}
-
-@media (max-width: 1981px) {
-  #section1-date {
-    margin-left: 200%;
-    margin-top: 2%;
-    font-size: 4em;
-    background: -webkit-linear-gradient(#f733ff, #6d33ff);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-  
-  #section1-desc {
-    width: 40%;
-    margin-left: 14%;
-    margin-top: -2.25%;
-    font-size: 2em;
-    color: white;
-  }
 }
 
 .slides {
@@ -231,4 +213,14 @@ p {
 .slidesContainer {
   align-self: flex-end;
   margin-inline-start: auto;
+}
+
+#section1 {
+  display: flex;
+  flex-direction: row;
+}
+
+#front-page-desc {
+  display: flex;
+  flex-direction: row;
 }
