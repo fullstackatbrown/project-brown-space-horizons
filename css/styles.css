@@ -34,7 +34,7 @@ header {
   width: 100%;
   height: 800px;
   z-index: -1;
-  opacity: .76;
+  opacity: 0.76;
 }
 
 #logo {
@@ -49,10 +49,8 @@ header {
   top: 16.5px;
   width: auto;
   grid-column-gap: 15%;
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[4];
-      grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   position: fixed;
 }
 
@@ -60,8 +58,7 @@ header {
   color: #c0c0c0;
   text-decoration: none;
   text-align: center;
-  -webkit-transition-duration: 0.5s;
-          transition-duration: 0.5s;
+  transition-duration: 0.5s;
 }
 
 .h-links:hover {
@@ -85,7 +82,7 @@ p {
   height: 200px;
   width: 200px;
   overflow: hidden;
-  background-color: grey;
+  background-color: black;
 }
 
 #container:before {
@@ -99,15 +96,14 @@ p {
   background-color: rgba(255, 255, 255, 0.5);
   top: 0;
   -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
   transform: rotate(45deg);
 }
 
 #wrapper {
   width: 1300px;
   margin: 0 auto;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  align-self: center;
 }
 
 .first {
@@ -133,48 +129,37 @@ p {
 
 .diagonal-box {
   background-image: linear-gradient(45deg, #e4e4e4 70%, #000000);
-  -webkit-transform: skewY(-11deg);
-          transform: skewY(-11deg);
+  transform: skewY(-11deg);
 }
 
 #section1 {
   margin-top: 80px;
-  display: -ms-grid;
   display: grid;
   grid-column-gap: 50px;
-  -ms-grid-columns: auto auto;
-      grid-template-columns: auto auto;
+  grid-template-columns: auto auto;
 }
 
 #front-page-intro {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
 
 #section1-left {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-rows: auto auto;
-      grid-template-rows: auto auto;
+  grid-template-rows: auto auto;
 }
 
 #section1-header {
   font-size: 4.5em;
   font-family: "Inter", sans-serif;
   margin-bottom: 0;
-  color: white;
 }
 
 #section1-desc {
   width: 35%;
   margin-left: 6%;
   font-size: 2em;
-  color: white;
+  color: grey;
 }
 
 #section1-date {
@@ -196,15 +181,14 @@ p {
     background-clip: text;
     -webkit-text-fill-color: transparent;
   }
+
   #section1-desc {
     width: 40%;
     margin-left: 14%;
     margin-top: -2.25%;
     font-size: 2em;
-    color: white;
   }
 }
-
 .slides {
   margin: auto;
   margin-top: 20%;
@@ -222,12 +206,10 @@ p {
 .section2-countdown {
   margin-left: 37%;
   width: 100%;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   background-color: grey;
   border: #ddd8d4 solid 3px;
   padding: 3px 5px 5px 5px;
-  -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 
@@ -243,47 +225,27 @@ p {
 }
 
 .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
   text-align: -webkit-auto;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 
 .container2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  align-items: center;
   margin-left: 4%;
 }
 
 .slidesContainer {
-  -ms-flex-item-align: end;
-      align-self: flex-end;
-  -webkit-margin-start: auto;
-          margin-inline-start: auto;
+  align-self: flex-end;
+  margin-inline-start: auto;
 }
 
 #front-page-desc {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
 }
+
 /*# sourceMappingURL=styles.css.map */

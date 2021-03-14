@@ -88,7 +88,7 @@ p {
   height: 200px;
   width: 200px;
   overflow: hidden;
-  background-color: grey;
+  background-color: black;
 }
 
 #container:before {
@@ -144,6 +144,7 @@ p {
   display: grid;
   grid-column-gap: 50px;
   grid-template-columns: auto auto;
+  //background: linear-gradient(45deg, #000000, #ffffff);
 }
 
 #front-page-intro {
@@ -160,14 +161,18 @@ p {
   font-size: 4.5em;
   font-family: $font-stack;
   margin-bottom: 0;
-  color: white;
+  //position: absolute;
+  //bottom: 0;
+  //right: 0;
+  //width: 300px;
+  //border: white;
 }
 
 #section1-desc {
   width: 35%;
   margin-left: 6%;
   font-size: 2em;
-  color: white;
+  color: grey;
 }
 
 #section1-date {
@@ -195,7 +200,6 @@ p {
     margin-left: 14%;
     margin-top: -2.25%;
     font-size: 2em;
-    color: white;
   }
 }
 
