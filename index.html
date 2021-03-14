@@ -7,7 +7,9 @@
 	<link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;700&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+		rel="stylesheet">
 	<link rel="manifest" href="/site.webmanifest">
 	<title>Space Horizons | Edit</title>
 	<link rel="stylesheet" href="css/styles.css">
@@ -15,7 +17,8 @@
 </head>
 
 <body>
-
+	<div id="top-background"></div>
+	<div id="speaker-background"></div>
 	<header>
 		<img id='logo' src="images/Default.jpg" alt="Space Horizons logo"></img>
 		<nav id='top-nav'>
@@ -27,149 +30,151 @@
 	</header>
 
 
-	
 
 	<div id='wrapper'>
 		<section id='section1'>
 			<div id='section1-left'>
-				<h1 id="section1-header">Space Horizons Conference</h1>
-				<div id='front-page-desc'>
-					<h2 id="section1-date">20<br>22</h2>
-					<h2 id="section1-desc">Feb. 29, 2022 Brown University Providence, RI</h2>
+				<div>
+					<h1 id="section1-header"><b>Space Horizons</b> Conference</h1>
+					<div id='front-page-desc'>
+						<h2 id="section1-date">20<br>22</h2>
+						<h2 id="section1-desc">Feb. 29, 2022<br>Brown University<br>Providence, RI</h2>
+					</div>
 				</div>
-		</div>
+			</div>
 			<!--make alt's more descriptive-->
-			<img class="slides" src="images\slides\day1.png" alt='Slide for Conference Day 1'>
-			<img class="slides" src="images\slides\day2.png" alt='Slide for Conference Day 2'>
-			<img class="slides" src="images\slides\day3.png" alt='Slide for Conference Day 3'>
-			<img class="slides" src="images\slides\day4.png" alt='Slide for Conference Day 4'>
-			<img class="slides" src="images\slides\day5.png" alt='Slide for Conference Day 5'>
-	</div>
-	</section>
+			<div class="slideshow-wrapper-flex">
+				<img class="slides" src="images/slides/slide_1.jpg" alt='Slide for Conference Day 1'>
+				<img class="slides" src="images/slides/slide_2.jpg" alt='Slide for Conference Day 2'>
+				<img class="slides" src="images/slides/slide_3.jpg" alt='Slide for Conference Day 3'>
+			</div>
+		</section>
 
-	<section>
-		<div class="containerSect2">
-			<div>
-				<h2 class="section2-subheader">Event Countdown</h2>
-				<h2 class="section2-countdown" id="days"></h2>
-				<h2 class="section2-countdown" id="hours"></h2>
-				<h2 class="section2-countdown" id="minutes"></h2>
-				<h2 class="section2-countdown" id="seconds"></h2>
-			</div>
-			<div>
-				<h2 class="section2-subheader2">2022 Theme</h2>
-				<h1 class="section2-header">Making Space Sustainable</h1>
-				<p class="section2-text">Space Horizons is an annual conference + workshop that is dedicated to
-					exploring
-					revolutionary space technologies that will shape the future of the industry and
-					seeing what is necessary to make them a reality. And this year Space Horizons
-					is fully virtual! Join us from anywhere on the planet for this interactive workshop. <br>
-					Moving Humanity Beyond Earth Means Figuring Out How To Make Space Sustainable!</p>
-			</div>
-		</div>
-	</section>
 
-	<section>
-		<h1 class="section3-header">
-			15 Speakers on 15 Topics
-		</h1>
-		<h4>
-			We have a very diverse group of speakers. Moving Humanity Beyond Earth Means Figuring Out How To Make
-			Space
-			Sustainable!
-		</h4>
-		<div id='speaker-grid'>
-			<div class='speaker'>
-				<img class="speaker-pics" src="images/slides/day1.png" alt='Picture of Speaker'>
-				<div id="hidden-speaker-text">
-					<p style='font-style: bold; text-align: center;'>How do we reverse global warming?</p>
-					<p style='text-align: center;'><i>20:00 PM, May 20</i></p>
+		<section>
+			<div class="containerSect2">
+				<div>
+					<h2 class="section2-subheader">Event Countdown</h2>
+					<h2 class="section2-countdown" id="days"></h2>
+					<h2 class="section2-countdown" id="hours"></h2>
+					<h2 class="section2-countdown" id="minutes"></h2>
+					<h2 class="section2-countdown" id="seconds"></h2>
 				</div>
-				<div id='visible-speaker-text'>
-					<h3>Teacher McTeacher</h3>
-					<p>Associate Professor,<br>Brown University</p>
-				</div>
-			</div>
-			<div class='speaker'>
-				<img class="speaker-pics" src="images/slides/day1.png" alt='Picture of Speaker'>
-				<div id="hidden-speaker-text">
-					<p style='font-style: bold; text-align: center;'>How do we reverse global warming?</p>
-					<p style='text-align: center;'><i>20:00 PM, May 20</i></p>
-				</div>
-				<div id='visible-speaker-text'>
-					<h3>Teacher McTeacher</h3>
-					<p>Associate Professor,<br>Brown University</p>
+				<div>
+					<h2 class="section2-subheader2">2022 Theme</h2>
+					<h1 class="section2-header">Making Space Sustainable</h1>
+					<p class="section2-text">Space Horizons is an annual conference + workshop that is dedicated to
+						exploring
+						revolutionary space technologies that will shape the future of the industry and
+						seeing what is necessary to make them a reality. And this year Space Horizons
+						is fully virtual! Join us from anywhere on the planet for this interactive workshop. <br>
+						Moving Humanity Beyond Earth Means Figuring Out How To Make Space Sustainable!</p>
 				</div>
 			</div>
-			<div class='speaker'>
-				<img class="speaker-pics" src="images/slides/day1.png" alt='Picture of Speaker'>
-				<div id="hidden-speaker-text">
-					<p style='font-style: bold; text-align: center;'>How do we reverse global warming?</p>
-					<p style='text-align: center;'><i>20:00 PM, May 20</i></p>
+		</section>
+
+		<section>
+			<h1 class="section3-header">
+				15 Speakers on 15 Topics
+			</h1>
+			<h4>
+				We have a very diverse group of speakers. Moving Humanity Beyond Earth Means Figuring Out How To Make
+				Space
+				Sustainable!
+			</h4>
+			<div id='speaker-grid'>
+				<div class='speaker'>
+					<img class="speaker-pics" src="images/slides/day1.png" alt='Picture of Speaker'>
+					<div id="hidden-speaker-text">
+						<p style='font-style: bold; text-align: center;'>How do we reverse global warming?</p>
+						<p style='text-align: center;'><i>20:00 PM, May 20</i></p>
+					</div>
+					<div id='visible-speaker-text'>
+						<h3>Teacher McTeacher</h3>
+						<p>Associate Professor,<br>Brown University</p>
+					</div>
 				</div>
-				<div id='visible-speaker-text'>
-					<h3>Teacher McTeacher</h3>
-					<p>Associate Professor,<br>Brown University</p>
+				<div class='speaker'>
+					<img class="speaker-pics" src="images/slides/day1.png" alt='Picture of Speaker'>
+					<div id="hidden-speaker-text">
+						<p style='font-style: bold; text-align: center;'>How do we reverse global warming?</p>
+						<p style='text-align: center;'><i>20:00 PM, May 20</i></p>
+					</div>
+					<div id='visible-speaker-text'>
+						<h3>Teacher McTeacher</h3>
+						<p>Associate Professor,<br>Brown University</p>
+					</div>
+				</div>
+				<div class='speaker'>
+					<img class="speaker-pics" src="images/slides/day1.png" alt='Picture of Speaker'>
+					<div id="hidden-speaker-text">
+						<p style='font-style: bold; text-align: center;'>How do we reverse global warming?</p>
+						<p style='text-align: center;'><i>20:00 PM, May 20</i></p>
+					</div>
+					<div id='visible-speaker-text'>
+						<h3>Teacher McTeacher</h3>
+						<p>Associate Professor,<br>Brown University</p>
+					</div>
+				</div>
+				<div class='speaker'>
+					<img class="speaker-pics" src="images/slides/day1.png" alt='Picture of Speaker'>
+					<div id="hidden-speaker-text">
+						<p style='font-style: bold; text-align: center;'>How do we reverse global warming?</p>
+						<p style='text-align: center;'><i>20:00 PM, May 20</i></p>
+					</div>
+					<div id='visible-speaker-text'>
+						<h3>Teacher McTeacher</h3>
+						<p>Associate Professor,<br>Brown University</p>
+					</div>
+				</div>
+				<div class='speaker'>
+					<img class="speaker-pics" src="images/slides/day1.png" alt='Picture of Speaker'>
+					<div id="hidden-speaker-text">
+						<p style='font-style: bold; text-align: center;'>How do we reverse global warming?</p>
+						<p style='text-align: center;'><i>20:00 PM, May 20</i></p>
+					</div>
+					<div id='visible-speaker-text'>
+						<h3>Teacher McTeacher</h3>
+						<p>Associate Professor,<br>Brown University</p>
+					</div>
+				</div>
+				<div class='speaker'>
+					<img class="speaker-pics" src="images/slides/day1.png" alt='Picture of Speaker'>
+					<div id="hidden-speaker-text">
+						<p style='font-style: bold; text-align: center;'>How do we reverse global warming?</p>
+						<p style='text-align: center;'><i>20:00 PM, May 20</i></p>
+					</div>
+					<div id='visible-speaker-text'>
+						<h3>Teacher McTeacher</h3>
+						<p>Associate Professor,<br>Brown University</p>
+					</div>
+				</div>
+				<div class='speaker'>
+					<img class="speaker-pics" src="images/slides/day1.png" alt='Picture of Speaker'>
+					<div id="hidden-speaker-text">
+						<p style='font-style: bold; text-align: center;'>How do we reverse global warming?</p>
+						<p style='text-align: center;'> <i>20:00 PM, May 20</i></p>
+					</div>
+					<div id='visible-speaker-text'>
+						<h3>Teacher McTeacher</h3>
+						<p>Associate Professor,<br>Brown University</p>
+					</div>
+				</div>
+				<div class='speaker'>
+					<img class="speaker-pics" src="images/slides/day1.png" alt='Picture of Speaker'>
+					<div id="hidden-speaker-text">
+						<p style='font-style: bold; text-align: center;'>How do we reverse global warming?</p>
+						<p style='text-align: center;'><i>20:00 PM, May 20</i></p>
+					</div>
+					<div id='visible-speaker-text'>
+						<h3>Teacher McTeacher</h3>
+						<p>Associate Professor,<br>Brown University</p>
+					</div>
 				</div>
 			</div>
-			<div class='speaker'>
-				<img class="speaker-pics" src="images/slides/day1.png" alt='Picture of Speaker'>
-				<div id="hidden-speaker-text">
-					<p style='font-style: bold; text-align: center;'>How do we reverse global warming?</p>
-					<p style='text-align: center;'><i>20:00 PM, May 20</i></p>
-				</div>
-				<div id='visible-speaker-text'>
-					<h3>Teacher McTeacher</h3>
-					<p>Associate Professor,<br>Brown University</p>
-				</div>
-			</div>
-			<div class='speaker'>
-				<img class="speaker-pics" src="images/slides/day1.png" alt='Picture of Speaker'>
-				<div id="hidden-speaker-text">
-					<p style='font-style: bold; text-align: center;'>How do we reverse global warming?</p>
-					<p style='text-align: center;'><i>20:00 PM, May 20</i></p>
-				</div>
-				<div id='visible-speaker-text'>
-					<h3>Teacher McTeacher</h3>
-					<p>Associate Professor,<br>Brown University</p>
-				</div>
-			</div>
-			<div class='speaker'>
-				<img class="speaker-pics" src="images/slides/day1.png" alt='Picture of Speaker'>
-				<div id="hidden-speaker-text">
-					<p style='font-style: bold; text-align: center;'>How do we reverse global warming?</p>
-					<p style='text-align: center;'><i>20:00 PM, May 20</i></p>
-				</div>
-				<div id='visible-speaker-text'>
-					<h3>Teacher McTeacher</h3>
-					<p>Associate Professor,<br>Brown University</p>
-				</div>
-			</div>
-			<div class='speaker'>
-				<img class="speaker-pics" src="images/slides/day1.png" alt='Picture of Speaker'>
-				<div id="hidden-speaker-text">
-					<p style='font-style: bold; text-align: center;'>How do we reverse global warming?</p>
-					<p style='text-align: center;'> <i>20:00 PM, May 20</i></p>
-				</div>
-				<div id='visible-speaker-text'>
-					<h3>Teacher McTeacher</h3>
-					<p>Associate Professor,<br>Brown University</p>
-				</div>
-			</div>
-			<div class='speaker'>
-				<img class="speaker-pics" src="images/slides/day1.png" alt='Picture of Speaker'>
-				<div id="hidden-speaker-text">
-					<p style='font-style: bold; text-align: center;'>How do we reverse global warming?</p>
-					<p style='text-align: center;'><i>20:00 PM, May 20</i></p>
-				</div>
-				<div id='visible-speaker-text'>
-					<h3>Teacher McTeacher</h3>
-					<p>Associate Professor,<br>Brown University</p>
-				</div>
-			</div>
-		</div>
-	</section>
+		</section>
 	</div>
+
 	<script src="script.js"></script>
 	<div class="diagonalimg">
 
