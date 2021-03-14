@@ -180,6 +180,11 @@ p {
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+    position: absolute;
+    bottom: 200px;
+    right: 700px;
+    width: 100px;
+    border: white;
   }
 
   #section1-desc {

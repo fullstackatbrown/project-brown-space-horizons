@@ -161,11 +161,6 @@ p {
   font-size: 4.5em;
   font-family: $font-stack;
   margin-bottom: 0;
-  //position: absolute;
-  //bottom: 0;
-  //right: 0;
-  //width: 300px;
-  //border: white;
 }
 
 #section1-desc {
@@ -182,6 +177,7 @@ p {
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+
 }
 
 @media (max-width: 1981px) {
@@ -193,6 +189,11 @@ p {
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+    position: absolute;
+    bottom: 200px;
+    right: 700px;
+    width: 100px;
+    border: white;
   }
   
   #section1-desc {
