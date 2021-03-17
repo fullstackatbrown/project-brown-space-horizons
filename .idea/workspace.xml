@@ -3,9 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="1d44d3b8-fcee-44c7-9551-219af469dfb5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/speakers.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/speakers.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/speakers.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/speakers.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/speakers.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/speakers.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +36,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -47,6 +50,7 @@
       <workItem from="1613690541120" duration="15434000" />
       <workItem from="1614476744835" duration="2314000" />
       <workItem from="1614813919287" duration="4941000" />
+      <workItem from="1616022292300" duration="2671000" />
     </task>
     <servers />
   </component>
