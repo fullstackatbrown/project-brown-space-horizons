@@ -32,9 +32,9 @@ var x = setInterval(function () {
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
     // Output the result in an element with id="demo"
-    document.getElementById("days").innerHTML = days + " days";
-    document.getElementById("hours").innerHTML = hours + " hours";
-    document.getElementById("minutes").innerHTML = minutes + " minutes";
+    document.getElementById("days").innerHTML = days + " days,";
+    document.getElementById("hours").innerHTML = hours + " hours,";
+    document.getElementById("minutes").innerHTML = minutes + " minutes,";
     document.getElementById("seconds").innerHTML = seconds + " seconds";
     // If the count down is over, write some text 
     if (distance < 0) {
