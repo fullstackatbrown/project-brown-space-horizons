@@ -2,6 +2,7 @@
 $font-stack: "Inter", sans-serif;
 $header-font: "Inter:wght@900", sans-serif;
 $primary-color: #333;
+$pic-width: 75%;
 
 #speaker-grid {
     display: grid;
@@ -9,9 +10,18 @@ $primary-color: #333;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
   }
-  
+
   .section3-header {
     margin-top: 10%;
+    color:white;
+    font-size: 2.4em;
+  }
+
+  #speakers-desc {
+    width: 50%;
+    color: white;
+    margin-bottom: 40px;
+    font-weight: 400;
   }
   
   .containerSect2 {
@@ -27,7 +37,7 @@ $primary-color: #333;
   }
   
   .speaker-pics {
-    width: 200px;
+    width: $pic-width;
     transition-duration: 0.3s;
     box-shadow: 1px 1px 3px 1px;
     z-index: 2;
@@ -42,12 +52,28 @@ $primary-color: #333;
   #visible-speaker-text {
     position: relative;
     width: 200px;
+    margin: 15px 10px 25px 10px;
+    color: white;
+    
+    h3 {
+      margin-bottom: 10px;
+    }
+
+    p{
+      font-style: italic;
+    }
   }
   
   #hidden-speaker-text {
     position: absolute;
-    top: 10%;
+    top: 18%;
     padding-top: 2%;
     z-index: 1;
-    width: 200px;
+    width: $pic-width;
+
+    #hidden-text-top{
+      font-weight: bold;
+      text-align: center;
+      margin-bottom: 10px;
+    }
   }
