@@ -235,16 +235,31 @@ p {
 
 // Section 2
 .section2-subheader {
-  margin-left: 37%;
+  background: linear-gradient(
+    318.41deg,
+    rgba(114, 204, 255, 0.65) -5.67%,
+    rgba(255, 60, 235, 0.97) 109.23%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 15px;
+  width: max-content;
 }
 
 .section2-subheader2 {
   margin-left: 38%;
+  margin-bottom: 15px;
+  background: linear-gradient(
+    318.41deg,
+    rgba(114, 204, 255, 0.65) 60.33%,
+    rgba(255, 60, 235, 0.97) 109.23%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .section2-countdown {
-  margin-left: 37%;
-  width: 100%;
+  width: max-content;
   box-sizing: border-box;
   padding: 3px 5px 5px 5px;
   transition: all 0.3s ease-in-out;
