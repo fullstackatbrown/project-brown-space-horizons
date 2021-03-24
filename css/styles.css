@@ -234,12 +234,14 @@ p {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 15px;
+  font-size: 1rem;
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
 }
 
 .section2-subheader2 {
+  font-size: 1rem;
   margin-left: 38%;
   margin-bottom: 15px;
   background: linear-gradient(318.41deg, rgba(114, 204, 255, 0.65) 60.33%, rgba(255, 60, 235, 0.97) 109.23%);
@@ -267,6 +269,7 @@ p {
   width: auto;
   margin-left: 38%;
   margin-top: 3%;
+  font-weight: 600;
   font-family: "Inter", sans-serif;
 }
 
