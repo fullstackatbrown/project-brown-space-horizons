@@ -30,12 +30,21 @@ header {
   -webkit-transform: skewY(0deg);
   transform: skewY(4deg);
   position: absolute;
-  top: 940px;
+  top: 920px;
   left: 0;
   width: 100%;
-  height: 880px;
+  height: 1000px;
   z-index: -1;
   opacity: 0.76;
+}
+
+#speaker-background-cutoff {
+  top: 1850px;
+  z-index: 0;
+  width: 100%;
+  height: 130px;
+  position: absolute;
+  background-color: #ffffff;
 }
 
 #logo {
