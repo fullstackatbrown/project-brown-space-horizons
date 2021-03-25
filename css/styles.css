@@ -59,10 +59,8 @@ header {
   top: 16.5px;
   width: auto;
   grid-column-gap: 15%;
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[4];
-      grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   position: fixed;
 }
 
@@ -70,8 +68,7 @@ header {
   color: #c0c0c0;
   text-decoration: none;
   text-align: center;
-  -webkit-transition-duration: 0.5s;
-          transition-duration: 0.5s;
+  transition-duration: 0.5s;
 }
 
 .h-links:hover {
@@ -109,15 +106,14 @@ p {
   background-color: rgba(255, 255, 255, 0.5);
   top: 0;
   -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
   transform: rotate(45deg);
 }
 
 #wrapper {
   width: 1300px;
   margin: 0 auto;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
+  align-self: center;
 }
 
 @media (max-width: 1300px) {
@@ -125,7 +121,6 @@ p {
     width: 90vw;
   }
 }
-
 .first {
   background-color: #000000;
   background-image: linear-gradient(30deg, #000000, #ffffff);
@@ -149,45 +144,31 @@ p {
 
 .diagonal-box {
   background-image: linear-gradient(45deg, #e4e4e4 70%, #000000);
-  -webkit-transform: skewY(-11deg);
-          transform: skewY(-11deg);
+  transform: skewY(-11deg);
 }
 
 #section1 {
   margin-top: 80px;
-  display: -ms-grid;
   display: grid;
   grid-column-gap: 50px;
-  -ms-grid-columns: 1fr 1fr;
-      grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   height: 440px;
 }
 
 #front-page-intro {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
 
 #section1-left {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 
 #section1-header {
   font-size: 4rem;
   color: white;
   margin-bottom: 0;
-  height: -webkit-max-content;
-  height: -moz-max-content;
   height: max-content;
   font-weight: 500;
   line-height: 4rem;
@@ -208,20 +189,13 @@ p {
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  -webkit-filter: brightness(1.15);
-          filter: brightness(1.15);
+  filter: brightness(1.15);
 }
 
 .slideshow-wrapper-flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  align-items: flex-end;
+  justify-content: flex-end;
 }
 
 .slides {
@@ -235,8 +209,6 @@ p {
   -webkit-text-fill-color: transparent;
   margin-bottom: 15px;
   font-size: 1.3rem;
-  width: -webkit-max-content;
-  width: -moz-max-content;
   width: max-content;
 }
 
@@ -250,13 +222,9 @@ p {
 }
 
 .section2-countdown {
-  width: -webkit-max-content;
-  width: -moz-max-content;
   width: max-content;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   padding: 3px 5px 5px 5px;
-  -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 
@@ -274,51 +242,29 @@ p {
 }
 
 .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
   text-align: -webkit-auto;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 
 .container2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  align-items: center;
   margin-left: 4%;
 }
 
 .slidesContainer {
-  -ms-flex-item-align: end;
-      align-self: flex-end;
-  -webkit-margin-start: auto;
-          margin-inline-start: auto;
+  align-self: flex-end;
+  margin-inline-start: auto;
 }
 
 #front-page-desc {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  flex-direction: row;
+  align-items: flex-start;
   margin-top: 20px;
 }
+
 /*# sourceMappingURL=styles.css.map */
