@@ -1,25 +1,26 @@
 .accordion {
-  background-color: #eee;
-  color: #444;
+  background-color: transparent;
+  color: rgb(0, 0, 0);
+  font-weight: 600;
   cursor: pointer;
   padding: 18px;
   width: 100%;
   border: none;
   text-align: left;
   outline: none;
-  font-size: 15px;
+  font-size: 22px;
   transition: 0.4s;
 }
 
 .active,
 .accordion:hover {
-  background-color: #ccc;
+  background-color: rgb(255, 255, 255);
 }
 
 .accordion:after {
   content: "\002B";
   color: #777;
-  font-weight: bold;
+  font-weight: 600;
   float: right;
   margin-left: 5px;
 }
@@ -34,4 +35,16 @@
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
+}
+
+.faq-header {
+  color: black;
+  font-size: 4em;
+  margin-bottom: 2%;
+}
+
+.faq-text {
+  color: black;
+  font-weight: 500;
+  font-size: 20px;
 }
