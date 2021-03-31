@@ -70,11 +70,15 @@
 }
 
 .schedule {
-  margin-top: 5%;
+  margin-top: 10%;
 }
 
 .schedule-header {
-  margin-top: 10%;
+  margin-top: 15%;
+}
+
+.location-header {
+  margin-top: 50%;
 }
 
 #map {
