@@ -69,12 +69,8 @@
   margin-bottom: 10px;
 }
 
-.schedule {
-  margin-top: 5%;
-}
-
-.schedule-header {
-  margin-top: 10%;
+.location-header {
+  margin-top: 50%;
 }
 
 #map {
